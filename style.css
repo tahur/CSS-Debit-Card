@@ -42,9 +42,10 @@ body{
     top: 0px;
     margin-left: 0px;
 
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 0;
+    border-bottom-left-radius: 80%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
 
 }
 p{
@@ -70,4 +71,39 @@ h3{
     bottom: 55px;
     left: 35px;
     outline-color: black;
+}
+
+#valid{
+    position: absolute;
+    right: 125px;
+    bottom: 24px;
+    font-family:  'Roboto', sans-serif;
+    font-size: xx-small;
+}
+
+#upto{
+    position: absolute;
+    font-family: 'MuseoModerno', cursive; 
+    font-size: 1em;
+    right: 60px;
+    bottom: 8px;
+    color: ghostwhite;
+}
+
+#name{
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    font-family:  'Roboto', sans-serif;
+    color: ghostwhite;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+#visa-logo{
+    position: absolute;
+    right: 20px;
+    bottom: 1px;
+    margin-bottom: 0;
+
 }
