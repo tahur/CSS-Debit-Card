@@ -3,13 +3,49 @@ body{
 }
 
 .card{
-    position: relative;
+    
 }
 
 .front{
     width: 350px;
     height: 200px;
-    background-color: blanchedalmond;
+    background-color: #bac964;
     margin: 100px auto 0 auto;
     border-radius: 15px;
+    position: relative;
+}
+
+.bank-logo{
+    padding: 20px 20px 0 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.bank-name{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+
+}
+
+.payby-visa{
+    background-color: #1b6ca8;
+    height: 70px;
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-left: 0px;
+
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+
+}
+
+.pbv{
+    background-color: teal;
+
+
 }
