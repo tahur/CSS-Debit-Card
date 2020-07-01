@@ -3,6 +3,7 @@ body{
 }
 
 .card{
+    position: relative;
     
 }
 
@@ -10,9 +11,10 @@ body{
     width: 350px;
     height: 200px;
     background-color: #bac964;
-    margin: 100px auto 0 auto;
+    margin: 250px 500px ;
     border-radius: 15px;
-    position: relative;
+    position: absolute;
+    z-index: 2;
 }
 
 .bank-logo{
@@ -112,9 +114,10 @@ h3{
     width: 350px;
     height: 200px;
     background-color: #bac964;
-    margin: 150px auto 0 auto;
+    margin: 250px 500px;
     border-radius: 15px;
-    position: relative;
+    position: absolute;
+    z-index: 1;
 }
 
 .black-bg{
@@ -177,3 +180,4 @@ h3{
     left: 35px;
     
 }
+
