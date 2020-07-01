@@ -180,4 +180,17 @@ h3{
     left: 35px;
     
 }
+ 
+.card :hover{
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
 
+@keyframes slide{
+  
+
+    100% {
+        margin-top: 100px;
+    }
+}
